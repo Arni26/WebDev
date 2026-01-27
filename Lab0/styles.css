@@ -1,0 +1,42 @@
+            body {
+                font-family: sans-serif;
+                background: rgb(240, 248, 255);
+                text-align: center;
+            }
+
+            .Body {
+                background: rgb(212, 242, 249);
+                width: 400px;
+                margin: 10px auto;
+                padding: 20px;
+                border: 2px dashed rgb(120, 180, 220);
+            }
+            h1 {
+                color: rgb(50, 100, 160);
+            }
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: italic;
+            }
+
+            ol {
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                text-align: left;
+            }
+            ul {
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                text-align: left;
+            }
+            .send {
+                background: rgb(210, 240, 243);
+                width: 400px;
+                margin: 0px auto;
+                padding: 20px;
+                border: 2px solid rgb(120, 180, 220);
+                border-radius: 25px;
+            }
+            
+
+            
