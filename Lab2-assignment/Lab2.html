@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spotify Sign Up</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="page">
+      <section class="card" aria-labelledby="title">
+        <p class="logo">Spotify</p>
+
+        <h1 id="title">Sign up for free</h1>
+        <p style="text-align: center; color: rgb(172, 172, 172);">Create your account and start listening.<br></p>
+
+        <form class="form" action="#" method="post">
+          <div class="field">
+            <label for="email">Email address</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="name@example.com"
+            />
+            <p class="under">We'll never share your email with anyone.</p>
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label>
+            <input
+              id="password"
+              type="password"
+              placeholder="Create a password"
+            />
+            <p class="under">Use 8+ characters for better security.</p>
+          </div>
+
+          <div class="field">
+            <label for="username">Username</label>
+            <input
+              id="username"
+              type="text"
+              placeholder="Pick a display name"
+            />
+          </div>
+
+            <label for="agree">
+            <input type="checkbox"/>
+            I agree to the <a class="link" href="#">Terms and Conditions</a>
+            </label>
+          <button class="button" type="submit">Sign Up</button>
+        </form>
+
+        <p class="LogIn">
+          Already have an account?
+          <a class="link" href="#">Log in</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
