@@ -1,0 +1,93 @@
+    * { box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+    body {
+      background: #f0f2f5;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 80px;
+    }
+
+    .left {
+      max-width: 500px;
+    }
+    .logo {
+      color: #1877f2;
+      font-size: 60px;
+      margin: 12px 0;
+    }
+    p {
+      font-size: 25px;
+      color: #1c1e21;
+    }
+
+    .right {
+      width: 400px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 16px;
+        box-shadow: 0 2px 10px rgb(0 0 0 / 15%);
+    }
+    .input {
+      width: 367px;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #dbdfe4;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .btn {
+      width: 367px;
+      border: 1px solid #dbdfe4;
+      border-radius: 5px;
+      padding: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 8px;
+      background: #1877f2;
+      color: #fff;
+    }
+    .btn-login:hover { background: #58a0ff; }
+
+    .forgot {
+      display: block;
+      text-align: center;
+      margin-top: 14px;
+      color: #2180fd;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .forgot:hover { text-decoration: underline; }
+    hr {
+      border-top: 1px solid #d2d4d7;
+      margin: 16px;
+    }
+
+    .new {
+      background: #42b72a;
+      border: 1px solid #dbdfe4;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #fff;
+      font-size: 17px;
+      padding: 12px 18px;
+      margin: auto;
+      display: block;
+    }
+    .new:hover { background: #36a420; }
+
+    .text {
+      text-align: center;
+      margin-top: 18px;
+      color: #1c1e21;
+      font-size: 14px;
+    }
+
